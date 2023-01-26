@@ -1,0 +1,18 @@
+# POST http://localhost:5000/users/signup
+# Content-Type: application/json
+
+# {  "firstName": "shrey", "lastName":"chale", "email":"test2@gmail.com",  "password":"Password" }
+
+
+
+# POST http://localhost:5000/users/signin
+# Content-Type: application/json
+
+# {"email": "test@gmail.com", "password":"Password"}
+
+# GET http://localhost:5000/meme/
+# Content-Type: application/json
+
+
+GET http://localhost:5000/meme/tag/tmkoc
+Content-Type: application/json
